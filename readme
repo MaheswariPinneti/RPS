@@ -1,0 +1,44 @@
+The first known mention of the game was in the book Wuzazu by the
+Ming-dynasty writer Xie Zhaozhe (fl. c. 1600), who wrote that the
+game dated back to the time of the Han dynasty (206 BCE – 220 CE).
+Real Name of Rock Paper Scissor:
+The game of rock-paper-scissors is called, precisely, "Rochambeau."
+Gardner appears to have been fond of team games, so to adapt rock-
+paper-scissors, her Handbook has the players of each of two teams
+decide among themselves whether their team will present rock, paper,
+or scissors.
+
+Can a Computer Learn Game Strategy as it Plays?
+The game of Rock, Paper, Scissors is very simple. Each player picks
+one of the three objects (usually by making the appropriate hand
+shape on a count of three!) and these rules are applied to see who has
+won that round:
+• Paper wraps (beats) Rock
+• Scissors cut (beat) Paper
+• Rock blunts (beats) Scissors
+The challenge of the game is to guess what your opponent will choose
+and pick the appropriate object to beat them.
+People find it quite hard to pick a sequence of perfectly random
+choices, so any pattern that a player develops could be learned by the
+opponent and used to win the game. That is what happens in this
+example. As you play, the computer learns the pattern of objects that
+you are most likely to pick.
+How Does it Work?
+The computer keeps track of the conditional probabilities of you
+picking each of the three objects given the object you picked last. The
+computer always picks the object that beats the one that it thinks you
+are most likely to choose. Although it knows what you have actually
+picked (you press one of the buttons to make your choice), it is honest
+and doesn't cheat!
+You can observe the computer learning by picking a strategy and
+sticking to it for a while. Here are a few things to try:
+1. Pick Rock, then Paper, then Scissors, then Rock again and keep
+that pattern up. See how quickly the computer learns to beat you
+every time?
+2. Having done that a few times, change strategy and pick Paper 5
+times in a row. See how the computer spots your change of
+strategy and alters its play?
+3. Pick any strategy of your own and see if the computer can spot
+the pattern.
+4. See if you can be perfectly random in your choices and beat the
+computer.
